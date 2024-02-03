@@ -1,3 +1,80 @@
 * {
-    background-color: blueviolet;
+    background-color: #1f2937;
+    /* border: 1px solid red; */
+}
+body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* width: 100vw;  */
+    /* overflow: hidden; */
+
+}
+div .container {
+    background-color: #1f2937;
+
+}
+header, footer {
+    background-color: #1f2937;
+    height: 5vh;
+    color: #f9faf8;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .hero {
+    background-color: #1f2937;     
+    /* flex-grow: 4; */
+    height: 25vh;
+    width: 100vw;  
+}
+.images, .call {
+    /* flex-grow: 4; */
+    height: 25vh;  
+    background-color: white;
+    width: 100vw;
+}
+.quote {
+    background-color: #e5e7eb;
+    width: 100vw;
+    /* flex-grow: 4; */
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.main-quote, .speaker {
+    background-color: #e5e7eb;
+    width: 50vw;
+}
+.main-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+.speaker {
+    align-self: flex-end;
+    font-weight: bolder;
 }
