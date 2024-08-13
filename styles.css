@@ -3,12 +3,12 @@
     /* border: 1px solid red; */
 }
 body {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-start; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
     /* align-items: center; */
-    /* width: 100vw;  */
-    /* overflow: hidden; */
+    width: 100vw; 
+    overflow: hidden;
 
 }
 div .container {
@@ -25,17 +25,26 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+div .links {
+    display: flex;
+    flex-direction:row;
+    justify-content: 
+    
+}
 a {
     text-decoration: none;
     color: white;
 }
 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    gap: 10%;
+    flex-wrap: nowrap;
 }
 li {
     list-style: none;
+    flex-wrap: nowrap;
 }
 footer {
     display: flex;
@@ -48,11 +57,24 @@ div .hero {
     height: 25vh;
     width: 100vw;  
 }
+header .header {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links, a {
+    color: #e5e7eb;
+    
+}
 .images, .call {
     /* flex-grow: 4; */
     height: 25vh;  
     background-color: white;
     width: 100vw;
+}
+.speaker {
+    align-self: flex-end;
+    font-weight: bolder;
 }
 .quote {
     background-color: #e5e7eb;
@@ -73,8 +95,5 @@ div .hero {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
-}
-.speaker {
-    align-self: flex-end;
-    font-weight: bolder;
+    max-width: 30%;
 }
